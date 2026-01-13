@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.env
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite
+milvus_demo.db
+
+# Large Files (Data & Models)
+data/*.mp4
+data/*.mkv
+data/*.mov
+data/*.webm
+data/*.srt
+models/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.DS_Store
+
+# System
+.DS_Store
+.idea/
+.vscode/
